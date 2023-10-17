@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.titleThema h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.toggle {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 50px;
+    height: 30px;
+    width: 90px;
+}
+
+.ball {
+    height: 22px;
+    width: 22px;
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 100%;
+    margin-top: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.ball:hover {
+    background-color: hsl(6, 85%, 61%);
+    transition: 0.2s;
+}
