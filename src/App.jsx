@@ -1,6 +1,7 @@
 import './App.css'
 import Logo from './components/Logo/Logo'
 import Screen from './components/Screen/Screen'
+import Teclado from './components/Teclado/Teclado'
 import Toggle from './components/Toggle/Toggle'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Toggle />
       </div>
       <Screen />
+      <Teclado />
     </>
   )
 }

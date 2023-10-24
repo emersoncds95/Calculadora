@@ -1,0 +1,20 @@
+.botaoMaior {
+    width: 45%;
+}
+
+.botaoMaior button {
+    width: 100%;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+}
+
+.botaoMaior button:hover {
+    background-color: hsl(6, 70%, 34%);
+    color: white;
+    transition: 0.3s;
+}

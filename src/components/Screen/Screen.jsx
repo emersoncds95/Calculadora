@@ -4,7 +4,7 @@ function Screen() {
     return (
         <>
             <div className="screen">
-                <p>0</p>
+                <p id='numeroTela'></p>
             </div>
         </>
     )
